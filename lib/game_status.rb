@@ -37,7 +37,7 @@ end
 
 def full?(board)
   #board.any?{ |x| !(x.nil?||x==" ") }
-  board.all?{ |x| (x=="Y"||x=="O") }
+  return board.all?{ |x| (x=="Y"||x=="O") }
 end
 
 def draw?(board)
