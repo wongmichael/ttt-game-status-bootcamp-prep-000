@@ -33,3 +33,7 @@ def won?(board)
     end
   }
 end
+
+def full?(board)
+  board.any?{ |x| !(x.nil?||x==" ") }
+end
